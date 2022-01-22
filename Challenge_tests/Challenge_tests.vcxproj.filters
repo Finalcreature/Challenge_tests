@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Phones">
+      <UniqueIdentifier>{87b62f0c-3e6b-4b33-b270-00c384b12fb8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Overloading Operator">
+      <UniqueIdentifier>{9cfef860-8469-42fb-bc42-fae826911e4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Challenges">
+      <UniqueIdentifier>{1076ebcd-bbab-4a91-ba2f-4abba6969153}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Polymorphism">
+      <UniqueIdentifier>{56e92ff5-5d5e-4a4f-8ef3-f45b3dfccda8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Members.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Class Template.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Phones.cpp">
+      <Filter>Source Files\Phones</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files\Phones</Filter>
+    </ClCompile>
+    <ClCompile Include="Source.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Money.cpp">
+      <Filter>Source Files\Overloading Operator</Filter>
+    </ClCompile>
+    <ClCompile Include="Money - main.cpp">
+      <Filter>Source Files\Overloading Operator</Filter>
+    </ClCompile>
+    <ClCompile Include="Loop.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Challenges.cpp">
+      <Filter>Source Files\Challenges</Filter>
+    </ClCompile>
+    <ClCompile Include="PolymorphismDemo.cpp">
+      <Filter>Source Files\Polymorphism</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Phones.h">
+      <Filter>Source Files\Phones</Filter>
+    </ClInclude>
+    <ClInclude Include="Money.h">
+      <Filter>Source Files\Overloading Operator</Filter>
+    </ClInclude>
+    <ClInclude Include="Challenges.h">
+      <Filter>Source Files\Challenges</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+</Project>
